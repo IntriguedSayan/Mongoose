@@ -1,5 +1,5 @@
 const express=require("express")
-const {connecttion,MarksModel}=require("./db")
+const {connecttion,MarksModel}=require("./Config/db")
 
 const app=express()
 app.use(express.json())
